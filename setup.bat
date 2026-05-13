@@ -2,13 +2,13 @@
 setlocal enabledelayedexpansion
 :: ============================================================
 :: Server Config Generator
-:: Extracts config from ZZZ client via WSL and generates server state.
+:: Extracts config fromvia WSL and generates server state.
 :: ============================================================
 
 set "SCRIPT_DIR=%~dp0"
 set "SCRIPT=%SCRIPT_DIR%setup_server_from_client.py"
-set "DEFAULT_CLIENT=D:\zzzz\CNBetaWin2.8.1"
-set "DEFAULT_TENTACLE=\\wsl.localhost\Ubuntu\home\wsl\zzz\Tentacle"
+set "DEFAULT_CLIENT="
+set "DEFAULT_TENTACLE=\\wsl.localhost\Ubuntu\home\wsl\Tentacle"
 
 echo ============================================
 echo  Server Setup
