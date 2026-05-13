@@ -1,4 +1,4 @@
-# zzz-server-setup
+# server-setup
 
 从客户端提取配置，生成本地服务器 state。
 
